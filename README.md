@@ -26,5 +26,5 @@ As is a Non approved browser extension, you should follow those steps:
 "https://webhooks.integrately.com/*",
 "https://maker.ifttt.com/trigger/*",
 ```
-## Step by step (Spanish version)
+## Step by step videotutorial (Spanish version)
 [Browser 2 Webhook Chrome Extension videotutorial](https://youtu.be/UPzuJR4PJIU)
