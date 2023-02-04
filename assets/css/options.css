@@ -1,0 +1,165 @@
+/*
+* Styles for options.html page
+*/
+
+html {
+    margin: 0 auto;
+    width: 240px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+small {
+    font-size: 0.8rem;
+}
+
+button, #status {
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    border: none;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+h6 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+#UrlForm {
+    margin: 0;
+    padding: 0;
+}
+
+#UrlForm input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#save {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    background: #eb7602;
+    color: #fff;
+    cursor: pointer;
+}
+
+#try {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background: #fbd19a;
+    color: #000;
+    cursor: pointer;
+}
+
+#delete {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background: rgb(241, 69, 69);
+    color: #fff;
+    cursor: pointer;
+}
+
+#about {
+    color: #406f70;
+    cursor: pointer;
+}
+
+#helpBox {
+    display: none;
+    overflow: auto;
+    height: 240px;
+    padding: 0.25rem;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+#helpBox p, #helpBox ul, #helpBox li {
+    text-align: left;
+    font-size: 0.75rem;
+}
+
+#helpBox ul {
+    margin: 0;
+    padding-left: 2rem;
+    list-style-type: square;
+}
+
+#make {
+    color: #6d00cc;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#ifttt {
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#youtube {
+    color: #ff0000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#help {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin: 0.15rem;
+    padding: 0.15rem;
+    cursor: pointer;
+}
+
+#help:hover {
+    font-weight: bold;
+}
+
+#status {
+    margin-top: 5px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+button {
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+}
+
+/* on button mouse over, add darker layer */
+button:hover {
+    filter: brightness(85%);
+}

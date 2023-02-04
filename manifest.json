@@ -1,0 +1,40 @@
+{
+    "manifest_version": 2,
+    "name": "Browser 2 Webhook",
+    "description": "Browser 2 Webhook extension allows you to send a POST request to a Make/Integromat, Zapier, n8n,  webhook with the current URL, title and description of the active tab.",
+    "version": "0.0.0.1",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "activeTab",
+        "storage",
+        "https://hook.eu1.make.com/*",
+        "https://hook.us1.make.com/*",
+        "https://hook.integromat.com/*",
+        "https://hook.eu1.integromat.com/*",
+        "https://hook.us1.integromat.com/*",
+        "https://hooks.zapier.com/*",
+        "https://*.hooks.n8n.cloud/*",
+        "https://webhooks.integrately.com/*",
+        "https://maker.ifttt.com/trigger/*",
+        "https://api.publicapis.org/health/*"
+    ],
+    "icons": {
+        "16": "assets/img/icon16.png",
+        "32": "assets/img/icon32.png",
+        "48": "assets/img/icon48.png",
+        "64": "assets/img/icon64.png",
+        "128": "assets/img/icon128.png"
+    },
+    "options_page": "options.html",
+    "browser_action": {
+        "default_icon": "assets/img/icon32.png",
+        "default_title": "Browser 2 webhook",
+        "default_popup": "options.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}

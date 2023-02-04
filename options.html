@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Browser 2 Webhook</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/options.css">
+</head>
+
+<body>
+    <div id="help">[?]</div>
+    <h1>Browser 2 <b>Webhook</b></h1>
+    <form id="UrlForm" name="UrlForm">
+        <div class="field">
+            <input type="url" id="url" name="url" placeholder="Insert webhook url here…">
+        </div>
+        <button id="save" type="submit">Save</button>
+    </form>
+    <button id="try" name="try">Test</button>
+    <button id="delete" name="delete">Reset</button>
+    <p id="status"></p>
+    <div id="helpBox">
+        <p><b>Browser 2 Webhook</b> will allow you to send some information that you are browsing – as well as its title
+            and meta description,
+            if it has any – to a webhook from <b>Automation tools</b> such as <span id="make">MAKE.COM</span>, Zapier,
+            Integrately, n8n or <span id="ifttt">IFTTT</span>. In this way you
+            can automate processes
+            that are related to the web page you are visiting.</p>
+        <p>All you need is to replace the url you are seeing right now with one belonging to the automation tools
+            mentioned above and save it by clicking the "Save" button.</p>
+        <p>Another major benefit is that Chrome's synced local storage is used; therefore, if you switch to another
+            device, you will have the webhook url available.</p>
+        <p><b>Important:</b> <em>only following domains and paths</em> are allowed to send POST requests:</p>
+        <ul>
+            <li>https://hook.eu1.make.com/*</li>
+            <li>https://hook.us1.make.com/*</li>
+            <li>https://hook.integromat.com/*</li>
+            <li>https://hook.eu1.integromat.com/*</li>
+            <li>https://hook.us1.integromat.com/*</li>
+            <li>https://hooks.zapier.com/*</li>
+            <li>https://webhooks.integrately.com/*</li>
+            <li>https://*.hooks.n8n.cloud/*</li>
+            <li>https://maker.ifttt.com/trigger/*</li>
+        </ul>
+        <h6>How to use it?</h6>
+        <p>You have all the possibilities available in the contextual menu – right mouse click – being able to execute
+            two tasks right now:</p>
+            <ul>
+                <li>Send the current url: title and meta description – if any – are also sent to webhook.</li>
+                <li>Send selected text to a webhook: </li>
+            </ul>
+        <h6>Watch the video tutorial</h6>
+        <p>Check it <b id="youtube">here</b>.</p>
+    </div>
+    <p style="text-align: center;"><small>Created by <span id="about"><b>@equisele</b></span></small></p>
+    <script src="assets/js/options.js"></script>
+</body>
+
+</html>
