@@ -106,7 +106,7 @@ function ifttt() {
 }
 
 function youtube() {
-  chrome.tabs.create({ url: "https://youtube.com/" });
+  chrome.tabs.create({ url: "https://equisele.com/browser-to-webhook-chrome-extension/" });
 }
 
 function help() {
