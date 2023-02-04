@@ -31,7 +31,7 @@ chrome.runtime.onInstalled.addListener(function () {
   });
 });
 
-chrome.runtime.setUninstallURL("https://example.com/uninstall", function () {
+chrome.runtime.setUninstallURL("https://forms.gle/RwdWzM9X6JTMGh5V6", function () {
   chrome.storage.sync.remove("myUrl", function () {
     console.log("myUrl deleted from chrome.storage");
   });

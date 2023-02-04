@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Browser 2 Webhook",
-    "description": "Browser 2 Webhook extension allows you to send a POST request to a Make/Integromat, Zapier, n8n,  webhook with the current URL, title and description of the active tab.",
+    "description": "It allows to send POST requests to  Make, Zapier, n8n,… webhooks with the current URL, title and description of the active tab.",
     "version": "0.0.0.1",
     "permissions": [
         "contextMenus",
