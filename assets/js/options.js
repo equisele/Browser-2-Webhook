@@ -4,6 +4,7 @@ document.getElementById('try').addEventListener('click', tryUrl);
 document.getElementById('delete').addEventListener('click', resetUrl);
 document.getElementById('about').addEventListener('click', about);
 document.getElementById('make').addEventListener('click', make);
+document.getElementById('airtable').addEventListener('click', airtable);
 document.getElementById('ifttt').addEventListener('click', ifttt);
 document.getElementById('youtube').addEventListener('click', youtube);
 document.getElementById('help').addEventListener('click', help);
@@ -103,6 +104,10 @@ function make() {
 
 function ifttt() {
   chrome.tabs.create({ url: "https://ifttt.com/join?referral_code=cLdgjkYTxFCULXIZMDLZDs616s6hudXA" });
+}
+
+function airtable() {
+  chrome.tabs.create({ url: "https://airtable.com/invite/r/1bqHwos9" });
 }
 
 function youtube() {

@@ -124,6 +124,12 @@ h6 {
     cursor: pointer;
 }
 
+#airtable {
+    color: #f82b60;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 #youtube {
     color: #ff0000;
     font-weight: bold;
