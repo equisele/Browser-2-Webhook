@@ -18,6 +18,7 @@
         "https://webhooks.integrately.com/*",
         "https://maker.ifttt.com/trigger/*",
         "https://hooks.airtable.com/workflows/*",
+        "https://cloud.yepcode.io/*",
         "https://api.publicapis.org/health/*"
     ],
     "icons": {
